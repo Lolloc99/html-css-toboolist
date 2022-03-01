@@ -20,6 +20,11 @@ body {
     border-radius: 0.2em;
 }
 
+.pad {
+    padding: 2em;
+    padding-left: 3em;
+}
+
 /* HEADER */
 header {
     background-color: white;
@@ -60,4 +65,35 @@ header {
 #add-section {
     background-color: white;
     color: #dbdfe2;
+}
+
+/* MAIN */
+ul {
+    list-style: none;
+    color: #444851;
+}
+
+h3 {
+    margin-top: 1em;
+}
+
+.mark {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: x-small;
+    width: 1.5em;
+    text-align: center;
+    margin: 1em;
+    margin-left: 0.3em;
+}
+
+.check {
+    color: #64c0a9;
+    border-color: #64c0a9;
+}
+
+.cross {
+    color: #eb5952;
+    border-color:#eb5952;
 }
