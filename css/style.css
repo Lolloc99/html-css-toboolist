@@ -3,4 +3,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
+}
+
+/* BODY */
+body {
+    background-color: #f6f8f9;
+}
+
+/* HEADER */
+header {
+    background-color: white;
+    width: 100%;
+}
+
+#header img {
+    vertical-align: middle;
+    padding-left: 1em;
+    margin: 0.7em 0;
+}
+
+#titolo {
+    display: inline-block;
+    color: black;
+    vertical-align: middle;
 }
