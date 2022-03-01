@@ -11,10 +11,20 @@ body {
     background-color: #f6f8f9;
 }
 
+/* COMMON */
+.container {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    padding-left: 3em;
+    border-radius: 0.2em;
+}
+
 /* HEADER */
 header {
     background-color: white;
     width: 100%;
+    margin-bottom: 2em;
 }
 
 #header img {
@@ -27,4 +37,27 @@ header {
     display: inline-block;
     color: black;
     vertical-align: middle;
+}
+
+/* NAV */
+#nav {
+    margin-bottom: 0.1em;
+    padding: 0.5em 0;
+}
+
+.button {
+    border: 0.1em solid #dbdfe2;
+    padding: 0.5em 1em;
+    font-size: x-small;
+    border-radius: 0.5em;
+}
+
+#add-task {
+    background-color: #47adf1;
+    color: white;
+}
+
+#add-section {
+    background-color: white;
+    color: #dbdfe2;
 }
